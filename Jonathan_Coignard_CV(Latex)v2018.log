@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 OCT 2017 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2018 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Jonathan_Coignard_CV(Latex)v2017.tex
-(./Jonathan_Coignard_CV(Latex)v2017.tex
+**Jonathan_Coignard_CV(Latex)v2018.tex
+(./Jonathan_Coignard_CV(Latex)v2018.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -1139,8 +1139,8 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 52.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 52.
 
-(./Jonathan_Coignard_CV(Latex)v2017.aux)
-\openout1 = `Jonathan_Coignard_CV(Latex)v2017.aux'.
+(./Jonathan_Coignard_CV(Latex)v2018.aux)
+\openout1 = `Jonathan_Coignard_CV(Latex)v2018.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -1267,10 +1267,10 @@ LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
 
-(./Jonathan_Coignard_CV(Latex)v2017.out)
-(./Jonathan_Coignard_CV(Latex)v2017.out)
+(./Jonathan_Coignard_CV(Latex)v2018.out)
+(./Jonathan_Coignard_CV(Latex)v2018.out)
 \@outlinefile=\write4
-\openout4 = `Jonathan_Coignard_CV(Latex)v2017.out'.
+\openout4 = `Jonathan_Coignard_CV(Latex)v2018.out'.
 
 \makecvheaddetailsbox=\box57
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 54.
@@ -1350,19 +1350,19 @@ Package microtype Info: Loading generic settings for font family
 han_Coignard.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (./Jonathan_Coignard_CV(Latex)v2017.aux)
+ (./Jonathan_Coignard_CV(Latex)v2018.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
-Package rerunfilecheck Info: File `Jonathan_Coignard_CV(Latex)v2017.out' has no
+Package rerunfilecheck Info: File `Jonathan_Coignard_CV(Latex)v2018.out' has no
 t changed.
 (rerunfilecheck)             Checksum: F017390C815C61102BFEC63F5B49BDFF;302.
  ) 
 Here is how much of TeX's memory you used:
- 29210 strings out of 492995
- 540168 string characters out of 6132704
+ 29204 strings out of 492995
+ 540104 string characters out of 6132704
  630900 words of memory out of 5000000
  32319 multiletter control sequences out of 15000+600000
- 67518 words of font info for 74 fonts, out of 8000000 for 9000
+ 67215 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,60p,10511b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1376,7 +1376,7 @@ sbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 cal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Jonathan_Coignard_CV(Latex)v2017.pdf (1 page, 525696 bytes).
+Output written on Jonathan_Coignard_CV(Latex)v2018.pdf (1 page, 525836 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
