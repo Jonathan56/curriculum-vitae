@@ -16,7 +16,8 @@
 
 % character encoding
 \usepackage[utf8]{inputenc}
-\usepackage{enumitem}                     
+\usepackage{enumitem}
+\usepackage{ragged2e}
 % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
@@ -33,8 +34,8 @@
 % personal data
 \name{Jonathan}{Coignard}
 \title{Computer sciences \&\protect\\ Electrical engineering}                               % optional, remove / comment the line if not wanted
-\address{le col}{56800 Augan}{France}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-\phone[mobile]{(510)326-5396}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\address{6 place Claveyson}{38000 Grenoble}{France}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{0768273742}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
 %\phone[fax]{+3~(456)~789~012}
 \email{jonathan.coignard@gmail.com}                               % optional, remove / comment the line if not wanted
@@ -44,8 +45,18 @@
 \social[github]{Jonathan56}                              % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \definecolor{darkblue}{RGB}{2, 46, 117}
-\photo[64pt][0.4pt]{Jonathan_Coignard.png}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{ \Large{Seeking job in electrical transmission and distribution systems}}                                 
+\photo[70pt][0.1pt]{Jonathan_Coignard.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+\let\originalrecomputecvlengths\recomputecvlengths
+\renewcommand*{\recomputecvlengths}{%
+\originalrecomputecvlengths%
+\setlength{\quotewidth}{0.9\textwidth}}
+
+\quote{
+\begin{FlushLeft}
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+\end{FlushLeft}
+}
 
 %----------------------------------------------------------------------------------
 %            content
