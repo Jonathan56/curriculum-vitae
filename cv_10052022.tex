@@ -18,12 +18,21 @@
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem}
 \usepackage{ragged2e}
+\usepackage{comment}
 % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
-% adjust the page margins
+\makeatletter
+\NewDocumentCommand{\mysubsection}{sm}{%
+  \par\addvspace{1ex}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{subsection}{#2}%
+  {\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{0.3\hintscolumnwidth}{0.95ex}}\quad}{\strut\subsectionstyle{#2}}%
+  \par\nobreak\addvspace{.5ex}\@afterheading}% to avoid a pagebreak after the heading
+\makeatother
 
-\usepackage[top=0.5cm, bottom=0.5cm, left=2cm, right=2cm]{geometry}
+% adjust the page margins
+\usepackage[top=1cm, bottom=0.5cm, left=2cm, right=2cm]{geometry}
 % Largeur de la colonne pour les dates
 \setlength{\hintscolumnwidth}{2.7cm}
 %\setlist{nolistsep}
@@ -56,6 +65,7 @@
 \begin{justify}
 Finishing a thesis on the topic of local energy communities, I aspire to work on the relationship between society and energy through the prism of collective self-consumption.
 \end{justify}
+\vspace{-0.5cm}
 }
 
 %----------------------------------------------------------------------------------
@@ -108,4 +118,43 @@ For more information, \url{http://jonathancoignard.com}
 \end{center}
 
 \clearpage
+
+%\begin{comment}
+\newgeometry{top=1cm, bottom=1cm, right=2.5cm, left=2.5cm}
+\section{Publications}
+\mysubsection{Book}
+Alvarez-Hérault M, Gouin V, Chardin-Segui T, Malot A, \textbf{Coignard J}, Raison B, Coulet J, \textcolor{darkblue}{Planification des réseaux électriques de distribution}, ISTE editions, Collection Énergie, ISBN 9781784058241.
+
+\vspace{0.3cm}
+\mysubsection{Journal}
+\textbf{Coignard J}, Hodencq S, Rigo-Mariani R, et al. (2022) \textcolor{darkblue}{Are more solar panels always better?}. TATuP - Journal for Technology Assessment in Theory and Practice (in press).\\
+
+Hodencq S, \textbf{Coignard J}, Twum-Duah N, et al. (2022) \textcolor{darkblue}{Including Greenhouse Gas Emissions and Behavioural Responses for PV Self-Sufficient Optimal Design}. COMPEL - The international journal for computation and mathematics in electrical and electronic engineering.\\
+
+\textbf{Coignard J}, Janvier M, Debusschere V, et al. (2021) \textcolor{darkblue}{Evaluating forecasting methods in the context of local energy communities}. International Journal of Electrical Power \& Energy Systems 131: 106956.\\
+
+Nouidui TS, \textbf{Coignard J}, Gehbauer C, et al. (2019) \textcolor{darkblue}{CyDER–an FMI-based co-simulation platform for distributed energy resources}. Journal of Building Performance Simulation 12: 566–579.\\
+
+\textbf{Coignard J}, MacDougall P, Stadtmueller F, et al. (2019) \textcolor{darkblue}{Will electric vehicles drive distribution grid upgrades?: The case of California}. IEEE Electrification Magazine 7: 46–56.\\
+
+\textbf{Coignard J}, Saxena S, Greenblatt J, et al. (2018) \textcolor{darkblue}{Clean vehicles as an enabler for a clean electricity grid}. Environmental Research Letters 13: 054031.\\
+
+Wang D, \textbf{Coignard J}, Zeng T, et al. (2016) \textcolor{darkblue}{Quantifying electric vehicle battery degradation from driving vs. vehicle-to-grid services}. Journal of Power Sources 332: 193–203.
+
+\vspace{0.3cm}
+\mysubsection{Conference}
+\textbf{Coignard J}, Debusschere V, Moreau G, et al. (2020) \textcolor{darkblue}{Distributed resource coordination in the context of european energy communities}, 2020 IEEE power \& energy society general meeting (PESGM), 1–5.\\
+
+Han J, Kim H, Eom H, \textbf{Coignard J}, et al. (2019) \textcolor{darkblue}{Enabling SQL-query processing for ethereum-based blockchain systems}, Proceedings of the 9th international conference on web intelligence, mining and semantics, 1–7.\\
+
+\textbf{Coignard J}, Nouidui T, Gehbauer C, et al. (2018) \textcolor{darkblue}{CyDER-a co-simulation platform for grid analysis and planning for high penetration of distributed energy resources}, 2018 IEEE power \& energy society general meeting (PESGM), 1–5.\\
+
+\textbf{Coignard J}, Munsing E, MacDonald J, et al. (2018) \textcolor{darkblue}{Co-simulation framework for blockchain based market designs and grid simulations}, 2018 IEEE power \& energy society general meeting (PESGM), 1–5.\\
+
+Michard B, Cosquer E, Mallegol A, \textbf{Coignard J}, et al. (2016) \textcolor{darkblue}{Projet EMACOP: caractérisation des vagues et du potentiel houlomoteur des sites d’Esquibien et de Saint-Guénolé par simulation numérique}, XIVèmes journées nationales génie Côtier–Génie civil, 29 juin-1er juillet 2016, toulon.\\
+
+Michard B, Cosquer E, Mallégol A, \textbf{Coignard J}, et al. (2015) \textcolor{darkblue}{EMACOP project: characterising the wave energy resources of hot spots in Brittany for on-shore WEC}, Proceedings of the 11th european wave and tidal energy conference.\\
+
+\textbf{Coignard J}, Michard B, Filipot J-F, et al. (2014) \textcolor{darkblue}{Projet EMACOP: modélisation numérique des vagues à l’approche de la digue d’Esquibien par le code SWASH}, XIIIèmes journées nationales génie Côtier–Génie civil, dunkerque, 2-4 juillet 2014.
+%\end{comment}
 \end{document}
